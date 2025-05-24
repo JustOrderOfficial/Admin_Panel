@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    //"allowImportingTsExtensions": true,
+    // "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "noEmit": true,
+
+    /* Incremental build support */
+    "incremental": true,
+    "tsBuildInfoFile": "./.tsbuildcache/tsconfig.app.tsbuildinfo",
+
+    /* Type checks */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+   // "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+  //  "noUncheckedSideEffectImports": true,
+
+
+    /* Performance */
+    "skipLibCheck": true
+  },
+  "include": ["src","vite.config.ts"]
+}
